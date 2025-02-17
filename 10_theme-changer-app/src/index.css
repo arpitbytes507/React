@@ -1,0 +1,19 @@
+/* src/index.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@tailwind components;
+@tailwind utilities;
+
+body {
+  transition: background-color 0.3s ease; /* Add smooth transition for background color */
+}
+
+body.light {
+  background-color: #ffffff;
+}
+
+body.dark {
+  background-color: #2d3748; /* Dark background */
+}
